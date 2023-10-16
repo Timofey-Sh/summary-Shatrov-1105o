@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto.ttf);
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url(fonts/Roboto Mono/RobotoMono.ttf);
+}
+
+@font-face {
+    font-family: SF;
+    src: url(fonts/San Francisco Mono/SFMono-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: Monteserrat;
+    src: url(fonts/Montserrat/Montserrat-BlackItalic.ttf);
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1,5em;
+    color: #212529;
+}
+
+.LOGO {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+a:hover {
+    color: #530FAD;
+}
+
+header {
+    font-size: 0,8em;
+    font-family: Roboto;
+    text-align: left;
+    padding: 6px 10px 6px 10px;
+}
+
+.photo{
+    width: 116px;
+}
+
+h1, h2 {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-size: 1,5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+div{
+    height: 1640px;
+    width: 1180px;
+}
+
+section {
+    font-size: 1em;
+    background: linear-gradient( 115deg, #FFFA00 30%, #C7007D 60%, #3415B0 100%);
+    border-radius: 24px;
+    width: 530px;
+    height: 580px;
+}
+
+section:hover {
+    box-shadow: 3px 3px 5px black;
+    transition-duration: 0,1s;
+}
+
+h3 {
+    font-size: 1em;
+}
+
